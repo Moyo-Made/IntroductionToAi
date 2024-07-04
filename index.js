@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 });
 
+//Event listener for click
 window.addEventListener("click", function (event) {
 	var dropdown = document.querySelector(".dropdown-content");
 	if (event.target !== dropdown && event.target !== button) {
